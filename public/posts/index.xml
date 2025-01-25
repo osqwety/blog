@@ -13,13 +13,11 @@
       
       <guid>/posts/this-is-a-full-test-finally./</guid>
       <description>&lt;p&gt;This is the major test
-Let test with image:
-This wont work probably&lt;/p&gt;
-&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020250125164721.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+Let test with image:&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20250125165348.png]]&lt;/p&gt;</description>
       <content>&lt;p&gt;This is the major test
-Let test with image:
-This wont work probably&lt;/p&gt;
-&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020250125164721.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+Let test with image:&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20250125165348.png]]&lt;/p&gt;
 </content>
     </item>
     
