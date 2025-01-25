@@ -5,7 +5,7 @@ This is the major test
 Let test with image:
 
 
-![[Pasted image 20250125165348.png]]
+!![Image Description](/images/Pasted%20image%2020250125165348.png)
 
 
 
