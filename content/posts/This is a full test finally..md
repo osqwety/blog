@@ -5,4 +5,4 @@ date: 1/25/25
 This is the major test
 Let test with image:
 
-![[Pasted image 20250125164721.png]]
+!![Image Description](/images/Pasted%20image%2020250125164721.png)
