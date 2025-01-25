@@ -1,70 +1,102 @@
 baseurl = "/"
-title = "My site."
-copyright = "Copyright (c) 2017, all rights reserved."
-canonifyurls = true
-languageCode = "en-US"
-paginate = 3
-theme = "hugo-dusk"
-
-googleAnalytics = ""
-disqusShortname = ""
-
-[params.author]
-  name = "Author name"
-  intro = """\
-    'hugo-dusk' theme for [hugo](https://gohugo.io/) an open-source static site generator.\
-  """
-
-SectionPagesMenu = "main"
-
-[taxonomies]
-  archive = "archive"
-  blog = "blog"
-  category = "categories"
-  series = "series"
-  tag = "tags"
-
-# Configure syntax highlight
-[markup]
-  [markup.highlight]
-    style = "gruvbox"  # dark themes: monokai, api, fruity, native, rrt, swapoff ... https://xyproto.github.io/splash/docs/longer/all.html
-
-[[menu.main]]
-  name = "Blog"
-  weight = -120
-  identifier = "blog"
-  url = "/blog/"
-
-[[menu.main]]
-  name = "Tags"
-  weight = -110
-  identifier = "tag"
-  url = "/tags/"
-
-[[menu.main]]
-  name = "Archive"
-  weight = -100
-  identifier = "archive"
-  url = "/archive/"
-
-[params.meta]
-  keywords = "blog, tech"
-  description = "Personal blog."
-[params.meta.fediverse]
-  creator = "@username@mastodon.server" # https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
+languageCode = "en-us"
+# Add it only if you keep the theme in the `themes` directory.
+# Remove it if you use the theme as a remote Hugo Module.
+theme = "terminal"
+paginate = 5
 
 [params]
-  mainSections = ['blog']
-  github = "github id"
-  gitlab = "gitlab id"
-  twitter = "twitter id"
-  linkedin = "linkedin id"
-  email = "myemail"
-  theme_colors = "default-dark" # uses color css file under static/css/default-dark.css
-  enable_separate_main_page = false # enable a separate main page with author intro and recent posts instead of the list of posts
-  utterancesRepo="REPO_NAME" # Utterances is enabled when this param is set
-  utterancesTheme="github-dark" # Default: github-dark
-  utterancesIssueTerm="pathname" # Default: pathname
-[params.mastodon] # https://joinmastodon.org/verification
-  username = "username"
-  server = "https://example.com"
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = false
+
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  # With this option you don't have to put the `cover` param in a front-matter.
+  autoCover = true
+
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = false
+
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  # updatedDatePrefix = "Updated"
+
+  # whether to show a page's estimated reading time
+  # readingTime = false # default
+
+  # whether to show a table of contents
+  # can be overridden in a page's front-matter
+  # Toc = false # default
+
+  # set title for the table of contents
+  # can be overridden in a page's front-matter
+  # TocTitle = "Table of Contents" # default
+
+  # Set date/time format for posts
+  # This will impact the date/time displayed on
+  # index.html, the posts list page, and on posts themselves
+  # This value can also be configured per-post on front matter
+  # If you have any issues with the timezone rendering differently
+  # than you expected, please ensure your timezone is correctly set
+  # on your server.
+  # This value can be customized according to Hugo documentation:
+  # https://gohugo.io/functions/time/format/
+  # Default value (no changes needed):
+  # dateFormat = "2006-01-02"
+  # Example format, with date, time, and timezone abbreviation:
+  # dateFormat = "2006-01-02 3:04:06 PM MST"
+
+
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = ""
+  site = ""
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Terminal"
+
+    [languages.en.params]
+      subtitle = "A simple, retro theme for Hugo"
+      owner = ""
+      keywords = ""
+      copyright = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "Terminal"
+        logoHomeLink = "/"
+
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+          identifier = "about"
+          name = "About"
+          url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "showcase"
+          name = "Showcase"
+          url = "/showcase"
