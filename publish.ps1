@@ -12,8 +12,9 @@ $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
 # Change to the script's directory
-$ScriptDir = "C:\Users\lambo\Documents\blog\"
+$ScriptDir = "C:\Users\lambo\Documents\Obsidian_Vault"
 Set-Location $ScriptDir
+
 
 # Check for required commands
 $requiredCommands = @('git', 'hugo')
@@ -79,13 +80,13 @@ if (-not (Test-Path "images.py")) {
 }
 
 # Execute the Python script
+
 try {
     & $pythonCommand images.py
 } catch {
-    Write-Error "Failed to process image links."
+    Write-Error "Failed to transfer files"
     exit 1
 }
-
 
 # Step 4: Build the Hugo site
 Write-Host "Building the Hugo site..."
@@ -118,7 +119,7 @@ if (-not $hasStagedChanges) {
 # Step 7: Push all changes to the main branch
 Write-Host "Deploying to GitHub Master..."
 try {
-    git push origin1 master
+    git push origin master
 } catch {
     Write-Error "Failed to push to Master branch."
     exit 1

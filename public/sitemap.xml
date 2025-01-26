@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
   </url><url>
-    <loc>/posts/this-is-the-first-proper-test/</loc>
+    <loc>//localhost:1313/posts/this-is-the-first-proper-test/</loc>
   </url><url>
-    <loc>/posts/the-status-of-ai/</loc>
+    <loc>//localhost:1313/posts/the-status-of-ai/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
   </url>
 </urlset>
