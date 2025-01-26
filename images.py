@@ -29,7 +29,8 @@ for filename in os.listdir(posts_dir):
             
             # Step 4: Copy the image to the Hugo static/images directory if it exists
             image = image.replace("..", "")
-            image_source = os.path.join(r"C:/Users/lambo/Documents/Obsidian_Vault", image.replace(' ', '%20'))
+            image = image.replace(' ', '%20')
+            image_source = os.path.join(r"C:/Users/lambo/Documents/Obsidian_Vault", image)
             if image_source == "":
                 print("blank")
             print(f"yes: {image_source}")
