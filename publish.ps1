@@ -86,6 +86,8 @@ try {
     exit 1
 }
 
+Start-sleep -Seconds 3
+
 try {
     & $pythonCommand images.py
 } catch {
@@ -93,7 +95,7 @@ try {
     exit 1
 }
 
-Start-sleep -Seconds 3
+
 
 # Step 4: Build the Hugo site
 Write-Host "Building the Hugo site..."
