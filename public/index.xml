@@ -6,5 +6,16 @@
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/posts/this-is-a-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/this-is-a-test/</guid>
+      <description>&lt;p&gt;THis is a test&lt;/p&gt;</description>
+      <content>&lt;p&gt;THis is a test&lt;/p&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
