@@ -29,6 +29,9 @@ for filename in os.listdir(posts_dir):
             
             # Step 4: Copy the image to the Hugo static/images directory if it exists
             image_source = os.path.join(attachments_dir, image)
+            if image_source == "":
+                print("blank")
+            print(f"yes: {image_source}")
             if os.path.exists(image_source):
                 shutil.copy(image_source, static_images_dir)
 
