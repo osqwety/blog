@@ -86,6 +86,12 @@ try {
     exit 1
 }
 
+try {
+    & $pythonCommand images.py
+} catch {
+    Write-Error "Failed to process image links."
+    exit 1
+}
 # Step 4: Build the Hugo site
 Write-Host "Building the Hugo site..."
 try {
