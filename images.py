@@ -30,7 +30,7 @@ for filename in os.listdir(posts_dir):
                 shutil.copy(image_source, static_images_dir)
 
         # Step 5: Write the updated content back to the markdown file
-        with open(filepath, "w", encoding="utf-8") as file:
-            file.write(content)
+        #with open(filepath, "w", encoding="utf-8") as file:
+            #file.write(content)
 
 print("Markdown files processed and images copied successfully.")
