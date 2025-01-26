@@ -13,9 +13,9 @@
       
       <guid>/posts/this-is-temp/</guid>
       <description>&lt;p&gt;this is veyr cool hopefully&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/Pasted%20image%2020250125212132.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;!&lt;img src=&#34;../images/Pasted%20image%2020250125212132.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
       <content>&lt;p&gt;this is veyr cool hopefully&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/Pasted%20image%2020250125212132.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;!&lt;img src=&#34;../images/Pasted%20image%2020250125212132.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
 </content>
     </item>
     
