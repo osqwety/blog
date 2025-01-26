@@ -1,3 +1,3 @@
 this is veyr cool hopefully
 
-!![Image Description](../images/Pasted%20image%2020250125212132.png)
+![[/images/Pasted image 20250125164721.png]]
