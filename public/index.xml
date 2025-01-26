@@ -18,7 +18,7 @@ With fancy formatting&lt;/p&gt;
 &lt;li&gt;and bullet points&lt;/li&gt;
 &lt;li&gt;hopefully it works&lt;/li&gt;
 &lt;li&gt;also look at this image&lt;/li&gt;
-&lt;li&gt;![[../images/Pasted image 20241213215848.png]]&lt;/li&gt;
+&lt;li&gt;![[../images/Pasted image 20250125165348.png]]&lt;/li&gt;
 &lt;li&gt;It is awesome right?&lt;/li&gt;
 &lt;li&gt;#correct&lt;/li&gt;
 &lt;/ul&gt;</description>
@@ -28,7 +28,7 @@ With fancy formatting&lt;/p&gt;
 &lt;li&gt;and bullet points&lt;/li&gt;
 &lt;li&gt;hopefully it works&lt;/li&gt;
 &lt;li&gt;also look at this image&lt;/li&gt;
-&lt;li&gt;![[../images/Pasted image 20241213215848.png]]&lt;/li&gt;
+&lt;li&gt;![[../images/Pasted image 20250125165348.png]]&lt;/li&gt;
 &lt;li&gt;It is awesome right?&lt;/li&gt;
 &lt;li&gt;#correct&lt;/li&gt;
 &lt;/ul&gt;
@@ -45,13 +45,13 @@ With fancy formatting&lt;/p&gt;
 This&lt;/p&gt;
 &lt;p&gt;#&lt;strong&gt;name&lt;/strong&gt; = &lt;strong&gt;main&lt;/strong&gt;:
 if&lt;/p&gt;
-&lt;p&gt;!&lt;img src=&#34;../images/Pasted%20image%2020250125211220.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;![[../images/Pasted image 20250125164721.png]]&lt;/p&gt;
 &lt;p&gt;This is really cool hopefully&lt;/p&gt;</description>
       <content>&lt;p&gt;This is another &lt;strong&gt;name&lt;/strong&gt; == &lt;strong&gt;main&lt;/strong&gt;
 This&lt;/p&gt;
 &lt;p&gt;#&lt;strong&gt;name&lt;/strong&gt; = &lt;strong&gt;main&lt;/strong&gt;:
 if&lt;/p&gt;
-&lt;p&gt;!&lt;img src=&#34;../images/Pasted%20image%2020250125211220.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;![[../images/Pasted image 20250125164721.png]]&lt;/p&gt;
 &lt;p&gt;This is really cool hopefully&lt;/p&gt;
 </content>
     </item>

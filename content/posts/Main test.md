@@ -7,6 +7,6 @@ This
 #__name__ = __main__:
 if 
 
-!![Image Description](../images/Pasted%20image%2020250125211220.png)
+![[../images/Pasted image 20250125164721.png]]
 
 This is really cool hopefully
