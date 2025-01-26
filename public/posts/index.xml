@@ -7,17 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>/posts/this-is-temp/</link>
+      <title>Proper Test</title>
+      <link>/posts/this-is-the-first-proper-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/posts/this-is-temp/</guid>
-      <description>&lt;p&gt;this is veyr cool hopefully think this will work
-I would hope this works but it pbly wont work&lt;/p&gt;
-&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020250125211220.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
-      <content>&lt;p&gt;this is veyr cool hopefully think this will work
-I would hope this works but it pbly wont work&lt;/p&gt;
-&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020250125211220.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+      <guid>/posts/this-is-the-first-proper-test/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Real Test&lt;/strong&gt;
+With fancy formatting&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;and bullet points&lt;/li&gt;
+&lt;li&gt;hopefully it works&lt;/li&gt;
+&lt;li&gt;also look at this image&lt;/li&gt;
+&lt;li&gt;![[/images/Pasted image 20250125212132.png]]&lt;/li&gt;
+&lt;li&gt;It is awesome right?&lt;/li&gt;
+&lt;li&gt;#correct&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content>&lt;p&gt;&lt;strong&gt;Real Test&lt;/strong&gt;
+With fancy formatting&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;and bullet points&lt;/li&gt;
+&lt;li&gt;hopefully it works&lt;/li&gt;
+&lt;li&gt;also look at this image&lt;/li&gt;
+&lt;li&gt;![[/images/Pasted image 20250125212132.png]]&lt;/li&gt;
+&lt;li&gt;It is awesome right?&lt;/li&gt;
+&lt;li&gt;#correct&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
