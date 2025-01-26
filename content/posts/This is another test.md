@@ -1,1 +1,1 @@
-![[Pasted image 20250125211220.png]]
+!![Image Description](/iattachments/Pasted%20image%2020250125211220.png)
