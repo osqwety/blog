@@ -4,7 +4,7 @@ import shutil
 
 # Paths (using raw strings to handle Windows backslashes correctly)
 posts_dir = r"C:\Users\lambo\Documents\Obsidian_Vault\posts"
-attachments_dir = r"C:\Users\lambo\Documents\Obsidian_Vault\attachments"
+attachments_dir = r"C:\Users\lambo\Documents\Obsidian_Vault\images"
 static_images_dir = r"C:\Users\lambo\Documents\blog\static\images"
 
 # Step 1: Process each markdown file in the posts directory
@@ -17,11 +17,12 @@ for filename in os.listdir(posts_dir):
         
         # Step 2: Find all image links in the format ![Image Description](/images/Pasted%20image%20...%20.png)
         images = re.findall(r'\[\[([^]]*\.png)\]\]', content)
+        print(images)
         
         # Step 3: Replace image links and ensure URLs are correctly formatted
         for image in images:
             # Prepare the Markdown-compatible link with %20 replacing spaces
-            markdown_image = f"![Image Description](images/{image.replace(' ', '%20')})"
+            markdown_image = f"![Image Description](/images/{image.replace(' ', '%20')})"
             print(markdown_image)
             content = content.replace(f"[[{image}]]", markdown_image)
             
