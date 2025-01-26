@@ -8,25 +8,25 @@
     <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/posts/test-v2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/test-v2/</guid>
-      <description>&lt;pre&gt;&lt;code&gt;tHis is a real test
-&lt;/code&gt;&lt;/pre&gt;</description>
-      <content>&lt;pre&gt;&lt;code&gt;tHis is a real test
-&lt;/code&gt;&lt;/pre&gt;
-</content>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/posts/this-is-a-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/this-is-a-test/</guid>
       <description>&lt;p&gt;THis is a test&lt;/p&gt;</description>
       <content>&lt;p&gt;THis is a test&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/this-is-very-cool-life/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/this-is-very-cool-life/</guid>
+      <description>&lt;p&gt;This is a test
+![[Pasted image 20250125210536.png]]&lt;/p&gt;</description>
+      <content>&lt;p&gt;This is a test
+![[Pasted image 20250125210536.png]]&lt;/p&gt;
 </content>
     </item>
     
