@@ -8,36 +8,14 @@
     <language>en</language><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/posts/this-is-a-test/</link>
+      <link>/posts/this-is-temp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/posts/this-is-a-test/</guid>
-      <description>&lt;p&gt;THis is a test&lt;/p&gt;</description>
-      <content>&lt;p&gt;THis is a test&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/posts/this-is-another-test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/this-is-another-test/</guid>
-      <description>&lt;p&gt;!&lt;img src=&#34;/iattachments/Pasted%20image%2020250125211220.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
-      <content>&lt;p&gt;!&lt;img src=&#34;/iattachments/Pasted%20image%2020250125211220.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/posts/this-is-very-cool-life/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/this-is-very-cool-life/</guid>
-      <description>&lt;p&gt;This is a test&lt;/p&gt;
-&lt;p&gt;![[../attachments/Pasted image 20250125211526.png]]&lt;/p&gt;</description>
-      <content>&lt;p&gt;This is a test&lt;/p&gt;
-&lt;p&gt;![[../attachments/Pasted image 20250125211526.png]]&lt;/p&gt;
+      <guid>/posts/this-is-temp/</guid>
+      <description>&lt;p&gt;this is veyr cool hopefully&lt;/p&gt;
+&lt;p&gt;![[attachments/Pasted image 20250125212132.png]]&lt;/p&gt;</description>
+      <content>&lt;p&gt;this is veyr cool hopefully&lt;/p&gt;
+&lt;p&gt;![[attachments/Pasted image 20250125212132.png]]&lt;/p&gt;
 </content>
     </item>
     
