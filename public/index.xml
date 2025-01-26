@@ -18,7 +18,7 @@ With fancy formatting&lt;/p&gt;
 &lt;li&gt;and bullet points&lt;/li&gt;
 &lt;li&gt;hopefully it works&lt;/li&gt;
 &lt;li&gt;also look at this image&lt;/li&gt;
-&lt;li&gt;!&lt;img src=&#34;../images/Pasted%20image%2020250125212132.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;
+&lt;li&gt;!&lt;img src=&#34;/images/Pasted%20image%2020250125212132.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;
 &lt;li&gt;It is awesome right?&lt;/li&gt;
 &lt;li&gt;#correct&lt;/li&gt;
 &lt;/ul&gt;</description>
@@ -28,7 +28,7 @@ With fancy formatting&lt;/p&gt;
 &lt;li&gt;and bullet points&lt;/li&gt;
 &lt;li&gt;hopefully it works&lt;/li&gt;
 &lt;li&gt;also look at this image&lt;/li&gt;
-&lt;li&gt;!&lt;img src=&#34;../images/Pasted%20image%2020250125212132.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;
+&lt;li&gt;!&lt;img src=&#34;/images/Pasted%20image%2020250125212132.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;
 &lt;li&gt;It is awesome right?&lt;/li&gt;
 &lt;li&gt;#correct&lt;/li&gt;
 &lt;/ul&gt;
