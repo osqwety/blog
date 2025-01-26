@@ -2,22 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/test-v2/</loc>
-  </url><url>
-    <loc>/posts/test-v3/</loc>
-  </url><url>
-    <loc>/posts/test-v7/</loc>
-  </url><url>
-    <loc>/posts/testv6/</loc>
-  </url><url>
     <loc>/categories/</loc>
-  </url><url>
-    <loc>/posts/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url><url>
     <loc>/</loc>
-  </url><url>
-    <loc>/posts/this-is-a-full-test-finally./</loc>
   </url>
 </urlset>
