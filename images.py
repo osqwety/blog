@@ -28,7 +28,9 @@ for filename in os.listdir(posts_dir):
             content = content.replace(f"[[{image}]]", markdown_image)
             
             # Step 4: Copy the image to the Hugo static/images directory if it exists
+            
             image_source = os.path.join(r"C:/Users/lambo/Documents/Obsidian_Vault", image)
+            image = image.replace(' ', '%20')
             image_source = image_source.replace("..", "")
             print(image_source)
             if image_source == "":
